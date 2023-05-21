@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Visitor {
+public interface Visitor<T> {
+    void visit(T data);
 }
